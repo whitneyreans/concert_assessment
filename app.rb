@@ -26,3 +26,12 @@ get '/bands/:id' do
   @venues = Venue.all()
   erb(:band)
 end
+
+patch("/bands/:id") do
+  band_id = params.fetch("id").to_i()
+  @band = Band.find(band_id)
+  venue_ids = params.fetch("venue_ids")
+  @band.update({:venue_ids => venue_ids})
+  @venues = Venue.all()
+  erb(:band)
+end
