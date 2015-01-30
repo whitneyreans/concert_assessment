@@ -16,6 +16,11 @@ Venue Tracker allows you to enter bands and venues, and enter which band has pla
 Whitney Reans
 <br>
 <br>
+## Known Bugs
+<br>
+The styling does not appear on an inidivual band's page. iunno.
+<br>
+<br>
 ## License
 <br>
 MIT License
