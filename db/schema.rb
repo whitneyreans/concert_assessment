@@ -23,8 +23,10 @@ ActiveRecord::Schema.define(version: 20150130173505) do
   end
 
   create_table "bands_venues", force: :cascade do |t|
-    t.integer "bands_id"
-    t.integer "venues_id"
+    t.integer  "band_id"
+    t.integer  "venue_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "venues", force: :cascade do |t|

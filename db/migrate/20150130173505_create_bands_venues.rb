@@ -1,8 +1,10 @@
 class CreateBandsVenues < ActiveRecord::Migration
   def change
     create_table(:bands_venues) do |t|
-      t.belongs_to(:bands)
-      t.belongs_to(:venues)
+      t.column(:band_id, :integer)
+      t.column(:venue_id, :integer)
+
+      t.timestamps
     end
   end
 end
