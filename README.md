@@ -18,7 +18,7 @@ Whitney Reans
 <br>
 ## Known Bugs
 <br>
-The styling does not appear on an inidivual band's page. iunno.
+The styling does not appear on an inidivual band's page. iunno. Also, each time a venue is submitted it overrides the previously entered venues.
 <br>
 <br>
 ## License
